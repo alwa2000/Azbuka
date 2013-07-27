@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Азбука</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc_rus1">Арбуз</string>
+    <string name="desc_rus2">Бегемот</string>
+    <string name="desc_rus3">Гепард</string>
+    <string name="letter_rus1">А</string>
+    <string name="letter_rus2">Б</string>
+    <string name="letter_rus3">Г</string>
+    <color name="background_color">#FFFFFF</color> // #F5F5F5
+    <color name="description_color">#000000</color>
+    <color name="letter_color">#ffcc0000</color>
+</resources>
