@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cards>
+    <card>
+        <position>1</position>
+        <letter>А</letter>
+        <snd_letter>rus_a.mp3</snd_letter>
+        <img>arbuz.jpg</img>
+        <snd_img>arbuz.mp3</snd_img>
+        <desc>Арбуз</desc>
+    </card>
+    <card>
+        <position>2</position>
+        <letter>Б</letter>
+        <snd_letter>rus_b.mp3</snd_letter>
+        <img>begemot.jpg</img>
+        <snd_img>begemot.mp3</snd_img>
+        <desc>Бегемот</desc>
+    </card>
+    <card>
+        <position>2</position>
+        <letter>Г</letter>
+        <snd_letter>rus_g.mp3</snd_letter>
+        <img>gepard.jpg</img>
+        <snd_img>gepard.mp3</snd_img>
+        <desc>Гепард</desc>
+    </card>
+
+</cards>
