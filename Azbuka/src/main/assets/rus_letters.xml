@@ -12,17 +12,310 @@
         <position>2</position>
         <letter>Б</letter>
         <snd_letter>rus_b.mp3</snd_letter>
+        <img>banan.jpg</img>
+        <snd_img>banan.mp3</snd_img>
+        <desc>Банан</desc>
+    </card>
+    <card>
+        <position>2</position>
+        <letter>Б</letter>
+        <snd_letter>rus_b.mp3</snd_letter>
         <img>begemot.jpg</img>
         <snd_img>begemot.mp3</snd_img>
         <desc>Бегемот</desc>
     </card>
     <card>
-        <position>2</position>
+        <position>3</position>
+        <letter>В</letter>
+        <snd_letter>rus_v.mp3</snd_letter>
+        <img>velosiped.jpg</img>
+        <snd_img>velosiped.mp3</snd_img>
+        <desc>Велосипед</desc>
+    </card>
+    <card>
+        <position>4</position>
+        <letter>Г</letter>
+        <snd_letter>rus_g.mp3</snd_letter>
+        <img>grib.jpg</img>
+        <snd_img>grib.mp3</snd_img>
+        <desc>Гриб</desc>
+    </card>
+    <card>
+        <position>4</position>
         <letter>Г</letter>
         <snd_letter>rus_g.mp3</snd_letter>
         <img>gepard.jpg</img>
         <snd_img>gepard.mp3</snd_img>
         <desc>Гепард</desc>
+    </card>
+
+    <card>
+        <position>5</position>
+        <letter>Д</letter>
+        <snd_letter>rus_d.mp3</snd_letter>
+        <img>dom.jpg</img>
+        <snd_img>dom.mp3</snd_img>
+        <desc>Дом</desc>
+    </card>
+
+    <card>
+        <position>6</position>
+        <letter>Е</letter>
+        <snd_letter>rus_e.mp3</snd_letter>
+        <img>enot.jpg</img>
+        <snd_img>enot.mp3</snd_img>
+        <desc>Енот</desc>
+    </card>
+
+    <card>
+        <position>7</position>
+        <letter>Ё</letter>
+        <snd_letter>rus_yo.mp3</snd_letter>
+        <img>elka.jpg</img>
+        <snd_img>elka.mp3</snd_img>
+        <desc>Ёлка</desc>
+    </card>
+    <card>
+        <position>7</position>
+        <letter>Ё</letter>
+        <snd_letter>rus_yo.mp3</snd_letter>
+        <img>ej.jpg</img>
+        <snd_img>ej.mp3</snd_img>
+        <desc>Ёж</desc>
+    </card>
+
+    <card>
+        <position>8</position>
+        <letter>Ж</letter>
+        <snd_letter>rus_zh.mp3</snd_letter>
+        <img>zhuk.jpg</img>
+        <snd_img>zhuk.mp3</snd_img>
+        <desc>Жук</desc>
+    </card>
+
+    <card>
+        <position>9</position>
+        <letter>З</letter>
+        <snd_letter>rus_z.mp3</snd_letter>
+        <img>zayaz.jpg</img>
+        <snd_img>zayaz.mp3</snd_img>
+        <desc>Заяц</desc>
+    </card>
+
+    <card>
+        <position>10</position>
+        <letter>И</letter>
+        <snd_letter>rus_i.mp3</snd_letter>
+        <img>induk.jpg</img>
+        <snd_img>induk.mp3</snd_img>
+        <desc>Индюк</desc>
+    </card>
+
+    <card>
+        <position>11</position>
+        <letter>Й</letter>
+        <snd_letter>rus_iy.mp3</snd_letter>
+        <img>jog.jpg</img>
+        <snd_img>jog.mp3</snd_img>
+        <desc>Йог</desc>
+    </card>
+
+    <card>
+        <position>12</position>
+        <letter>К</letter>
+        <snd_letter>rus_k.mp3</snd_letter>
+        <img>kot.jpg</img>
+        <snd_img>kot.mp3</snd_img>
+        <desc>Кот</desc>
+    </card>
+
+    <card>
+        <position>13</position>
+        <letter>Л</letter>
+        <snd_letter>rus_l.mp3</snd_letter>
+        <img>ladon.jpg</img>
+        <snd_img>ladon.mp3</snd_img>
+        <desc>Ладонь</desc>
+    </card>
+
+    <card>
+        <position>14</position>
+        <letter>М</letter>
+        <snd_letter>rus_m.mp3</snd_letter>
+        <img>myach.jpg</img>
+        <snd_img>myach.mp3</snd_img>
+        <desc>Мяч</desc>
+    </card>
+
+    <card>
+        <position>15</position>
+        <letter>Н</letter>
+        <snd_letter>rus_n.mp3</snd_letter>
+        <img>nojnizi.jpg</img>
+        <snd_img>nojnizi.mp3</snd_img>
+        <desc>Ножницы</desc>
+    </card>
+
+    <card>
+        <position>16</position>
+        <letter>О</letter>
+        <snd_letter>rus_o.mp3</snd_letter>
+        <img>ogurez.jpg</img>
+        <snd_img>ogurez.mp3</snd_img>
+        <desc>Огурец</desc>
+    </card>
+
+    <card>
+        <position>17</position>
+        <letter>П</letter>
+        <snd_letter>rus_p.mp3</snd_letter>
+        <img>ptiza.jpg</img>
+        <snd_img>ptiza.mp3</snd_img>
+        <desc>Птица</desc>
+    </card>
+
+    <card>
+        <position>18</position>
+        <letter>Р</letter>
+        <snd_letter>rus_r.mp3</snd_letter>
+        <img>ryba.jpg</img>
+        <snd_img>ryba.mp3</snd_img>
+        <desc>Рыба</desc>
+    </card>
+
+    <card>
+        <position>19</position>
+        <letter>С</letter>
+        <snd_letter>rus_s.mp3</snd_letter>
+        <img>sobaka.jpg</img>
+        <snd_img>sobaka.mp3</snd_img>
+        <desc>Собака</desc>
+    </card>
+
+    <card>
+        <position>20</position>
+        <letter>Т</letter>
+        <snd_letter>rus_t.mp3</snd_letter>
+        <img>telefon.jpg</img>
+        <snd_img>telefon.mp3</snd_img>
+        <desc>Телефон</desc>
+    </card>
+
+    <card>
+        <position>21</position>
+        <letter>У</letter>
+        <snd_letter>rus_u.mp3</snd_letter>
+        <img>uho.jpg</img>
+        <snd_img>uho.mp3</snd_img>
+        <desc>Ухо</desc>
+    </card>
+
+    <card>
+        <position>22</position>
+        <letter>Ф</letter>
+        <snd_letter>rus_f.mp3</snd_letter>
+        <img>fonar.jpg</img>
+        <snd_img>fonar.mp3</snd_img>
+        <desc>Фонарь</desc>
+    </card>
+
+    <card>
+        <position>23</position>
+        <letter>Х</letter>
+        <snd_letter>rus_x.mp3</snd_letter>
+        <img>hleb.jpg</img>
+        <snd_img>hleb.mp3</snd_img>
+        <desc>Хлеб</desc>
+    </card>
+
+    <card>
+        <position>24</position>
+        <letter>Ц</letter>
+        <snd_letter>rus_tz.mp3</snd_letter>
+        <img>ziplenok.jpg</img>
+        <snd_img>ziplenok.mp3</snd_img>
+        <desc>Цыплёнок</desc>
+    </card>
+
+    <card>
+        <position>25</position>
+        <letter>Ч</letter>
+        <snd_letter>rus_ch.mp3</snd_letter>
+        <img>chasi.jpg</img>
+        <snd_img>chasi.mp3</snd_img>
+        <desc>Часы</desc>
+    </card>
+
+    <card>
+        <position>26</position>
+        <letter>Ш</letter>
+        <snd_letter>rus_sh.mp3</snd_letter>
+        <img>shapka.jpg</img>
+        <snd_img>shapka.mp3</snd_img>
+        <desc>Шапка</desc>
+    </card>
+
+    <card>
+        <position>27</position>
+        <letter>Щ</letter>
+        <snd_letter>rus_shh.mp3</snd_letter>
+        <img>schetka.jpg</img>
+        <snd_img>schetka.mp3</snd_img>
+        <desc>Щётка</desc>
+    </card>
+
+    <card>
+        <position>28</position>
+        <letter>Ъ</letter>
+        <snd_letter>rus_tviordiy.mp3</snd_letter>
+        <img>tviordiy_znak.jpg</img>
+        <snd_img></snd_img>
+        <desc></desc>
+    </card>
+
+    <card>
+        <position>29</position>
+        <letter>Ы</letter>
+        <snd_letter>rus_yi.mp3</snd_letter>
+        <img>bukva_yi.jpg</img>
+        <snd_img></snd_img>
+        <desc></desc>
+    </card>
+
+    <card>
+        <position>30</position>
+        <letter>Ь</letter>
+        <snd_letter>rus_miagkiy.mp3</snd_letter>
+        <img>miyagkiy_znak.png</img>
+        <snd_img></snd_img>
+        <desc></desc>
+    </card>
+
+    <card>
+        <position>31</position>
+        <letter>Э</letter>
+        <snd_letter>rus_aa.mp3</snd_letter>
+        <img>ekskavator.jpg</img>
+        <snd_img>ekskavator.mp3</snd_img>
+        <desc>Экскаватор</desc>
+    </card>
+
+    <card>
+        <position>32</position>
+        <letter>Ю</letter>
+        <snd_letter>rus_yu.mp3</snd_letter>
+        <img>yula.jpg</img>
+        <snd_img>yula.mp3</snd_img>
+        <desc>Юла</desc>
+    </card>
+
+    <card>
+        <position>33</position>
+        <letter>Я</letter>
+        <snd_letter>rus_ya.mp3</snd_letter>
+        <img>yabloko.jpg</img>
+        <snd_img>yabloko.mp3</snd_img>
+        <desc>Яблоко</desc>
     </card>
 
 </cards>

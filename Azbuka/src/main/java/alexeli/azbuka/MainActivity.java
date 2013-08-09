@@ -46,7 +46,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private ArrayList<Card> cards;
 
     private int index = 0;
-    private int max_index = 2;
+    private int max_index = 0;
     private int swipeMinDistance;
     private int swipeThresholdVelocity;
     private int swipeMaxOffPath;
@@ -126,8 +126,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 //        textViewLetter.setText(R.string.letter_rus1);
 
         final ViewConfiguration vc = ViewConfiguration.get(this);
-        swipeMinDistance = vc.getScaledPagingTouchSlop();
-        swipeThresholdVelocity = vc.getScaledMinimumFlingVelocity();
+        swipeMinDistance = vc.getScaledPagingTouchSlop() / 2;
+        swipeThresholdVelocity = vc.getScaledMinimumFlingVelocity() / 2;
         swipeMaxOffPath = vc.getScaledTouchSlop()*5;
 
 
@@ -142,8 +142,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         View view = getWindow().getDecorView().findViewById(android.R.id.content);
         // Do this for each view added to the grid
-        view.setOnClickListener(MainActivity.this);
+        view.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                playLetter();
+            }
+        });
         view.setOnTouchListener(gestureListener);
+        imageView.setOnTouchListener(gestureListener);
 
 
         XMLParser parser = new XMLParser();
@@ -181,9 +186,16 @@ public class MainActivity extends Activity implements View.OnClickListener {
             cards.add(card);
 
         }
+        max_index = cards.size() - 1;
 
-        Card card = cards.get(0);
+        displayCard(0);
+
+    }
+
+    private void displayCard(int index) {
+        Card card = cards.get(index);
         imageView.setImageDrawable(card.img_d);
+        imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
         setDescription(card.desc);
         textViewLetter.setText(card.letter);
         playLetter();
@@ -193,8 +205,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 playDescription();
             }
         }, 800);
-
-
     }
 
     private Drawable loadDrawable(String filename) {
@@ -293,6 +303,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     class MyGestureDetector extends GestureDetector.SimpleOnGestureListener {
+
+//        imageView.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                playDescription();
+//            }
+//        });
+
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
 
@@ -319,17 +336,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 }
 
                 mLog.print(TAG, String.format("index %d", index));
-                Card card = cards.get(index);
-                imageView.setImageDrawable(card.img_d);
-                setDescription(card.desc);
-                textViewLetter.setText(card.letter);
-                playLetter();
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    public void run() {
-                        playDescription();
-                    }
-                }, 800);
+                displayCard(index);
 
 //                switch (index) {
 //                    case 0:
@@ -399,7 +406,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 mLog.printStackTrace(e);
                 // nothing
             }
-            return false;
+            return true;
         }
 
         public boolean onDown(View v) {
